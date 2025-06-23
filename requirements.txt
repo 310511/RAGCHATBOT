@@ -1,0 +1,14 @@
+streamlit
+python-dotenv
+dnspython
+requests
+urllib3
+unstructured[all]
+langchain
+google-generativeai
+langchain-google-genai
+langchain-community
+pdfminer.six
+pi-heif
+unstructured-inference
+pdf2image 
