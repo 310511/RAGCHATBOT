@@ -28,7 +28,7 @@ RAGChatBot is an intelligent document-based chatbot built using the Retrieval-Au
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+ 1. Clone the Repository
    
    git clone https://github.com/310511/RAGCHATBOT.git
    
@@ -54,49 +54,49 @@ RAGChatBot is an intelligent document-based chatbot built using the Retrieval-Au
 
 5. Run the Application
    
-streamlit run app.py
+   streamlit run app.py
 
 
 
 🧠 How It Works
 
-User uploads a PDF.
-
-The file is parsed using unstructured.partition.pdf.
-
-Text is chunked using LangChain's RecursiveCharacterTextSplitter.
-
-Each chunk is embedded and stored in a vector store.
-
-User inputs a query → relevant chunks retrieved → sent to LLM.
-
-LLM generates an accurate and context-aware response.
+   .User uploads a PDF.
+   
+   .The file is parsed using unstructured.partition.pdf.
+   
+   .Text is chunked using LangChain's RecursiveCharacterTextSplitter.
+   
+   .Each chunk is embedded and stored in a vector store.
+   
+   .User inputs a query → relevant chunks retrieved → sent to LLM.
+   
+   .LLM generates an accurate and context-aware response.
 
 
 
 🧩 Future Improvements
 
-Support for multiple document types (Word, HTML)
-
-Chat history and session memory
-
-Option to switch between LLM providers (Gemini, OpenAI, etc.)
-
-Integration with FAISS or ChromaDB for persistent vector storage
+   .Support for multiple document types (Word, HTML)
+   
+   .Chat history and session memory
+   
+   .Option to switch between LLM providers (Gemini, OpenAI, etc.)
+   
+   .Integration with FAISS or ChromaDB for persistent vector storage
 
 
 
 🙌 Acknowledgements
 
-Unstructured.io
-
-LangChain
-
-Streamlit
-
-Google Generative AI
+   .Unstructured.io
+   
+   .LangChain
+   
+   .Streamlit
+   
+   .Google Generative AI
 
 
 📬 Contact
-Developed during an internship by Utsav Gautam.
-Feel free to raise issues or contribute to enhance the chatbot further!
+   Developed during an internship by Utsav Gautam.
+   Feel free to raise issues or contribute to enhance the chatbot further!
