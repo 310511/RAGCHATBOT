@@ -29,27 +29,28 @@ RAGChatBot is an intelligent document-based chatbot built using the Retrieval-Au
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-
-bash
-git clone https://github.com/310511/RAGCHATBOT.git
-cd RAGCHATBOT
+   
+   git clone https://github.com/310511/RAGCHATBOT.git
+   
+   cd RAGCHATBOT
 
 2. Set up a Virtual Environment
 
-python -m venv venv
-
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python -m venv venv
+   
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. Install Requirements
    
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 4. Configure Environment Variables
+      
+   Create a .env file and add your API keys:
    
-Create a .env file and add your API keys:
-
-GEMINI_API_KEY=your_gemini_api_key
-GROQ_API_KEY=your_groq_api_key
+   GEMINI_API_KEY=your_gemini_api_key
+   
+   GROQ_API_KEY=your_groq_api_key
 
 5. Run the Application
    
